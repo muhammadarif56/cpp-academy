@@ -1,0 +1,227 @@
+body{
+  margin:0;
+  padding:0;
+
+  font-family: Arial, sans-serif;
+
+  background-image: url("WhatsApp Image 2026-05-14 at 7.08.06 AM.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  color:white;
+}
+
+/* TITLE */
+h3{
+  text-align:center;
+
+  font-size:28px;
+  font-weight:bold;
+
+  color:white;
+
+  letter-spacing:2px;
+  text-transform:uppercase;
+
+  margin-top:20px;
+
+  display:inline-block;
+
+  padding:12px 25px;
+
+  background: rgba(0,0,0,0.55);
+
+  backdrop-filter: blur(10px);
+
+  border:1px solid rgba(255,255,255,0.2);
+
+  border-radius:12px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+/* LOGO */
+.logo{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  width: 70px;
+  height: 70px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  animation: spin 5s linear infinite;
+}
+
+/* ANIMATION */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* TOPICS BOX */
+.topics{
+  text-align:center;
+  margin-top:30px;
+}
+
+/* PHASE TITLE */
+.topics h2{
+  display:inline-block;
+
+  padding:10px 25px;
+
+  margin-bottom:20px;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+
+  border-radius:12px;
+
+  border:1px solid rgba(255,255,255,0.25);
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* CARDS */
+.card{
+  display:inline-block;
+
+  width:140px;
+
+  margin:10px;
+  padding:15px;
+
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+
+  border:1px solid rgba(255,255,255,0.25);
+  border-left:5px solid #7b61ff;
+
+  border-radius:12px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.25);
+
+  transition:0.3s;
+}
+
+/* HOVER */
+.card:hover{
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.2);
+}
+
+/* INTRO TEXT BOX */
+.introducation{
+  width:70%;
+  margin:40px auto;
+
+  padding:25px;
+
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+
+  border:1px solid rgba(255,255,255,0.2);
+
+  border-radius:15px;
+
+  line-height:1.6;
+
+  font-size:16px;
+}
+
+/* BACK BUTTON */
+/* Back to Home Button */
+a{
+  display:block;
+  width:fit-content;
+
+  padding:12px 30px;
+  
+  
+
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+
+  background: rgba(123, 97, 255, 0.8);
+
+  border-radius:50px;
+
+  border:1px solid rgba(255,255,255,0.2);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.3);
+
+  transition:0.3s;
+
+  float:left;
+}
+
+/* Hover */
+a:hover{
+  transform: translateY(-3px);
+  background: rgba(155, 132, 255, 1);
+}
+
+
+/* Next Button */
+.next{
+  display:block;
+  width:fit-content;
+
+  /* padding:15px ; */
+  margin-top: -5px;
+
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+
+  background: rgba(123, 97, 255, 0.8);
+
+  border-radius:50px;
+
+  border:1px solid rgba(255,255,255,0.2);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.3);
+
+  transition:0.3s;
+
+  float:right;
+}
+/* Hover */
+.next:hover{
+  transform: translateY(-3px);
+  background: rgba(155, 132, 255, 1);
+}
